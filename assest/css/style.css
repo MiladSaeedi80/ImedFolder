@@ -1,0 +1,753 @@
+*{
+    outline: none!important;
+    text-decoration: none!important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic!important;
+}
+
+/*start image and shapes*/
+.shape_header1{
+    background: no-repeat center/cover url("../images/Elips-Effect-1.png");
+    width: 7%;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 270px;
+}
+
+.shape_line2{
+    background: no-repeat center/100% url(../images/Lineeee-Effect-1\ \(4\).png);
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 700px;
+    padding-left: 140px;
+}
+
+
+.shape_line3{
+    background: no-repeat center/cover url(../images/shape_header2.png);
+    width: 41%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 109.5%;
+    top: 29%;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.box_video_header {
+    padding: 27px 10px 11px 30px;
+    background: rgba(0,255,248,.13);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(4.5px) brightness(1.2);
+    border-radius: 25px;
+    margin-top: 42px;
+    margin-right: 19px;
+}
+
+
+.logo-header{
+    background-image: url(../images/Logo.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 96px;
+}
+
+.play_video_header{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.play_video_header p{
+    font-size: 0.9em;
+}
+
+.play_video_header i{
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+/*end image and shapes*/
+
+
+/*start-background_botton_header*/
+.bg_button_header{
+    background: no-repeat center/cover url(../images/bg_shape_header.png);
+    margin-top: 300px;
+}
+
+.bg_button_header div button{
+    border-radius: 8px;
+    margin: 18px 0 0px 38px;
+    height: 36px;
+    width: 73%;
+    background-color: turquoise;
+}
+
+.bg_button_header div {
+    margin: 0 auto;
+    width: 41%;
+    text-align: center;
+    margin-left: 38%;
+}
+
+.bg_button_header div p{
+    text-align: justify;
+    color: white;
+    padding-top: 17px;
+    font-size: 0.7rem;
+}
+/*end-background_botton_header*/
+
+.bg_header{
+    background: no-repeat center/cover url("../images/bg-header.jpg");
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*start-menu_header*/
+.singUp_singIn button{
+    border-radius: 12px;
+}
+
+.singUp_singIn span {
+    font-size: 2rem;
+    color: white;
+}
+/*end-menu_header*/
+
+
+/*start_service*/
+.section_service{
+    background: no-repeat center/cover url("../images/bg_shape_service.png");
+    position: absolute;
+    top: 109.5%;
+    width: 98%;
+    height: 113%;
+}
+
+.title_service{
+    margin-top: -10px;
+    margin-left: 8%;
+    font-weight: 400;
+}
+
+.row_service img{
+    height: 58px;
+}
+
+.row_service p{
+    width: 85%;
+    margin: 0 auto;
+}
+/*end_service*/
+
+
+/*start_virtual clinic*/
+.section_myclinic{
+    background: no-repeat top/cover url("../images/Group\ 299.svg") ;
+    width: 100%;
+    position: relative;
+    height: 125vh;
+}
+
+.shape_clinic{
+    background: no-repeat top/cover url("../images/shape_clinic.png") ;
+    width: 25%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*end_virtual clinic*/
+
+
+/*start-clinics*/
+.section_clinics{
+    background: #041121;
+    width: 100%;
+    position: relative;
+}
+
+
+.section_clinics > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.icon-list{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 151px;
+    border: 1px solid #00FFF8;
+    padding: 10px 90px 0px 18px;
+}
+
+.icon-list > img{
+    margin-right: 21px;
+    width: 27px!important;
+}
+
+.section_clinics .title_clinics{
+    padding-top: 90px;
+}
+
+.title_clinics h4{
+    font-size: 2.7rem;
+    font-weight: 100;
+}
+
+.box_owe:hover, .box_two:hover, .box_Three:hover, .box-four:hover, .box-five:hover, .box-six:hover, .box-seven:hover, .box-eight:hover ,.box-nine:hover, .box-ten:hover, .box-eleven:hover{
+    background: #3C2EA3;
+    border: none!important;
+}
+
+.box_owe, .box_two{
+    border: 1px solid white;
+    width: 82%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    transition: all 0.3s;
+    margin-left: 38px;
+}
+
+.box_Three{
+    border: 1px solid white;
+    width: 62%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    transition: all 0.3s;
+}
+
+.box-four{
+    border: 1px solid white;
+    width: 58%;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    margin-left: 39px;
+    text-align: center;
+}
+
+.box-five{
+    padding: 20px;
+    border: 1px solid white;
+    width: 55%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 60%;
+    transition: all 0.3s;
+}
+
+.box-six{
+    margin-right: 50px;
+    padding: 20px;
+    border: 1px solid white;
+    width: 60%;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 54%;
+    transition: all 0.3s;
+}
+
+.box-seven{
+    padding: 20px;
+    border: 1px solid white;
+    width: 45%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    margin-left: 40px;
+}
+
+.box-eight{
+    margin-right: 50px;
+    padding: 20px;
+    border: 1px solid white;
+    width: 69%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 56%;
+    transition: all 0.3s;
+}
+
+.box-nine{
+    margin-right: 50px;
+    padding: 20px;
+    border: 1px solid white;
+    width: 46%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 88%;
+    transition: all 0.3s;
+}
+
+.box-ten{
+    padding: 20px;
+    border: 1px solid white;
+    width: 40%;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 40px;
+    transition: all 0.3s;
+}
+
+.box-eleven{
+    margin-right: 50px;
+    padding: 20px;
+    border: 1px solid white;
+    width: 67%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 67%;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.section-clinic2{
+    height: 50vh;
+}
+/*end-clinics*/
+
+
+/*start_box_digital*/
+.box_digital{
+    width: 100%;
+    background-color: #3C2EA3;
+}
+/*end_box_digital*/
+
+
+/*start_Tour_Guide*/
+.section_Tour_Guide{
+    width: 100%;
+    background-color: #041121;
+}
+
+.box_guide_video{
+    border: 1px solid #3C2EA3;
+    width: 100%;
+    height: 400px;
+}
+
+.box_manager_guide{
+    border: 1px solid #3C2EA3;
+    height: 150px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.box_manager_guide:hover{
+    background-color: #3C2EA3;
+}
+
+.box_user_guide{
+    border: 1px solid #3C2EA3;
+    height: 150px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.box_user_guide:hover{
+    background-color: #3C2EA3;
+}
+
+.play_video_guide p{
+    color: #00FFCE;
+}
+
+.play_video_guide i{
+    border: 1px solid #00FFCE;
+    padding: 9px;
+    border-radius: 50%;
+    color: #00FFCE;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.play_video_guide{
+    position: absolute;
+    right: 34px;
+    bottom: 20px
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+/*end_Tour_Guide*/
+
+
+/*start_health*/
+.section_health{
+    background-color: #000;
+    position: relative;
+    height: 65vh;
+}
+
+.section_health img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide .title {
+    transform: translate3d(0px, 0px, 0px);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+.text p{
+    text-align: justify;
+    font-size: 0.7rem;
+    padding-top: 75px;
+    width: 78%;
+    margin: 0 auto;
+}
+
+.swiper-slide .text {
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.swiper-button-prev::after, .swiper-container-rtl .swiper-button-next::after {
+    content: 'prev';
+    border-radius: 50%;
+    font-size: 1.4rem;
+    padding: 23px;
+    width: 44px;
+    height: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F1D33;
+    color: #00FFF8;
+}
+
+.swiper-button-next::after, .swiper-container-rtl .swiper-button-prev::after{
+    content: 'next';
+    border-radius: 50%;
+    font-size: 1.4rem;
+    padding: 23px;
+    width: 44px;
+    height: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F1D33;
+    color: #00FFF8;
+}
+
+.swiper-pagination{
+    display: none;
+}
+/*end_health*/
+
+
+/*start_know_us*/
+.title_contact_us{
+    padding: 25px 30px 30px 85px;
+    width: 100%;
+    color: white;
+    height: 120px;
+    background: #1D1C3B;
+}
+
+.bg_contact_us{
+    background: linear-gradient(rgba(73, 79, 172, 0.5), rgba(0,0,0,.5)),
+    url("../images/annie-spratt-QckxruozjRg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.shape-contact{
+    background: no-repeat center/cover url("../images/Mask\ Group\ \(2\).png");
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.box_beginnig{
+    padding: 25px 30px 30px 85px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 93;
+    background: #1D1C3B;
+}
+/*end_know_us*/
+
+
+/*start_contact_us*/
+.box-working{
+    padding: 25px 30px 30px 85px;
+    width: 100%;
+    color: white;
+    height: 93px;
+    background: #1D1C3B;
+}
+
+.box_contact_us{
+    margin-left: 55px;
+    border: 2px solid #041121;
+    border-radius: 10px;
+    padding: 25px;
+    width: 80%;
+    height: 468px;
+}
+
+.box-shape-contact{
+    height: 85px;
+    background-color: #1D1C3B;
+    width: 100%;
+}
+
+.box-shape-contact img{
+    width: 100%;
+    height: 12vh;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 3px dotted #1D1C3B;
+    height: 17px;
+}
+
+#exampleFormControlTextarea1 {
+    border-bottom: none;
+    border: none;
+}
+
+.btn-form{
+    background-color: #00FFCE;
+    text-align: center;
+    margin-left: 59px;
+    width: 122px;
+    position: absolute;
+    right: 10%;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 43px;
+}
+
+.lable_input{
+    color: #1D1C3B;
+    opacity: 0.4;
+}
+
+.form-group input:focus{
+    outline:0px !important;
+    box-shadow: none !important;
+}
+/*end_contact_us*/
+
+.box-Clinics{
+    border: 3px solid #3C2EA3;
+    border-radius: 23px;
+    width: 238px;
+    height: 338.98px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.box-Clinics small{
+    font-size: 0.7rem!important;
+}
+
+.box-Clinics img{
+    width: 34%;
+    height: 65px;
+    text-align: center;
+    margin: 45px auto 0 auto;
+}
+
+
+/*start_Establishment and Marketing*/
+.section-e-m{
+    padding: 90px;
+    background: #041121;
+    width: 100%;
+    height: 105vh;
+    background-image: url(../images/Line-Effect-Jpg-01\ 1.png);
+    background-size: 100%;
+    background-position: center 250px;
+    background-repeat: no-repeat;
+}
+
+.box-membership{
+    margin-top: 110px;
+    border: 1px solid white;
+    width: 85%;
+    padding: 40px;
+    color: whitesmoke;
+}
+/*end_Establishment and Marketing*/
+
+
+/*start-footer*/
+.section-footer{
+    position: relative;
+    width: 100%;
+    background: #1D1C3B;
+    padding: 80px;
+}
+
+.section-footer img{
+    border-radius: 50%;
+    width: 99px;
+    height: 94px;
+}
+
+.icon-footer a img{
+    border-radius: 0!important;
+    width: 25px;
+    height: 25px;
+    margin:  0 7px 0 7px;
+}
+
+.btn-footer{
+    position: absolute;
+    right: 81px;
+}
+
+.btn-footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 65px;
+    background-color: #3C2EA3;
+}
+
+.icon-top{
+    width: 49px !important;
+    height: 27px !important;
+}
+
+
+
+/*end-footer*/
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: #1B1464!important;
+}
+
+.shape-responsive-block{
+    background: #041121;
+    background-image: url(../images/photo_2021-03-18_14-41-58.jpg);
+    background-size: 100%;
+    background-position: center 300px;
+    background-repeat: no-repeat;
+    display: none;
+    width: 100%;
+    height: 100vh;
+}
+
+.border-slider{
+    border: 1px solid black;
+    width: 119px;
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+
+.border-slider2{
+    border: 1px solid black;
+    width: 119px;
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+

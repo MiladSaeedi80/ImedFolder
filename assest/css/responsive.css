@@ -1,0 +1,667 @@
+@media(min-width: 290px) and (max-width: 998px) {
+    /*start-none_shape*/
+    .shape_line3, .shape_header1, .shape-contact, .shape_line2, .shape_clinic, .section_service, .section_clinic img, .box-shape-contact img, .section_clinics img, .section_health img, .shape-footer{
+        display: none;
+    }
+   /*end-none_shape*/
+
+    .top-info {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    /*start image and shapes*/
+    .shape_line2{
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding-left: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: inherit;
+    }
+
+    .title_service{
+        position: absolute;
+        top: 118%;
+        padding: 0!important;
+        font-size: 31px!important;
+    }
+
+    .title_contact_us h4{
+        font-size: 21px!important;
+    }
+
+    .title_contact_us p{
+        font-size: 15px!important;
+    }
+
+    .icon-myclinics{
+        width: 27px;
+        margin-top: 0!important;
+    }
+
+    .btn-footer{
+        position: none!important;
+        right: 23px;
+        margin-bottom: 46px!important;
+    }
+
+    .box-working{
+        padding: 25px 30px 30px 44px!important;
+        height: 81px!important;
+    }
+
+    .box-working h5{
+        font-size: 21px!important;
+    }
+
+    .box_beginnig{
+        padding: 25px 30px 30px 44px!important;
+    }
+
+    .box_beginnig h5{
+        font-size: 21px!important;
+    }
+
+    .box_video_header {
+        margin-top: 80px;
+        width: 90%;
+        margin-right: 0!important;
+    }
+
+    .singUp_singIn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 25px !important;
+    }
+
+
+    /* .box_video_header img{
+        height: 95px;
+    } */
+
+    .box_video_header p {
+        margin-bottom: 0!important;
+        padding-top: 10px;
+        font-size: 0.8rem;
+        margin-top: 0!important;
+        padding-right: 0!important;
+    }
+    /*end image and shapes*/
+
+
+    /*start-background_botton_header*/
+    /* .bg_button_header{
+        height: auto;
+    } */
+
+    .bg_button_header div .btn{
+        margin-bottom: 15px;
+    }
+
+    .bg_button_header div{
+        width: 92%;
+        margin-left: 4%;
+        display: block!important;
+    }
+
+    .bg_button_header div button{
+        margin: 0;
+
+    }
+    /*end-background_botton_header*/
+
+
+   
+
+    /*start-clinics*/
+  
+
+    .section_clinic div div p{
+        font-size: 0.9rem;
+    }
+
+    .section_health{
+        height: auto;
+    }
+
+    .section_clinic h4{
+        font-size: 1.2rem;
+        margin-left: 0!important;
+    }
+
+    .section_clinic div div h4{
+        font-size: 1.2rem;
+    }
+
+    .section_clinic img{
+        width: 100%!important;
+    }
+
+    .icon-list{
+        text-align: right;
+        position: absolute;
+        right: 33%;
+        top: 36px;
+        border: 1px solid #00FFF8;
+        padding: 7px 30px 1px 32px;
+    }
+
+    .icon-list > img{
+        display: inline-block;
+    }
+
+    .box_owe, .box_two, .box-four, .box-ten, .box_Three, .box-eight, .box-seven{
+        font-size: 0.7rem;
+        padding: 0!important;
+        width: 100%!important;
+        margin-left: 0!important;
+    }
+
+    .box_owe, .box_two{
+        width: 90%;
+        margin-left: 0!important;
+    }
+
+    .box_two{
+        margin-left: 0.9rem!important;
+        margin-left: 0!important;
+    }
+
+    .p-remove-clinics{
+        padding: 0!important;
+    }
+
+    .box-four{
+        width: 90%;
+        height: 67px;
+        right: 0;
+        margin-top: 13px!important;
+    }
+
+    .fa-circle{
+        margin-top: 0!important;
+    }
+
+    .box_Three{
+        height: 67px;
+        margin-top: 14px;
+        width: 90%;
+    }
+
+    .box-nine{
+        position: initial;
+        width: 100%;
+        height: 67px;
+        margin-right: 0px;
+        font-size: 0.7rem;
+    }
+
+    .box-seven{
+        width: 90%;
+        height: 67px;
+    }
+
+    .box-five{
+        position: initial;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .box-six{
+        margin-right: 0;
+        position: initial;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .box-eight, .box-ten{
+        width: 90%;
+        height: 67px;
+        right: 0;
+        position: inherit;
+    }
+
+    .box-eleven{
+        font-size: 0.7rem;
+        width: 152px;
+        height: 67px;
+        margin-top: 20px!important;
+        position: absolute;
+        left: 8%!important;
+        
+    }
+
+    .d-none-takht{
+        display: none!important;
+    }
+    /*end-clinics*/
+
+
+    /*start_box_digital*/
+    .box_digital h2{
+        font-size: 1.2rem;
+    }
+
+
+    .box_digital p{
+        font-size: 0.7rem!important;
+    }
+    /*end_box_digital*/
+
+
+    /*start_Tour_Guide*/
+    .box_user_guide h5, .box_manager_guide h5{
+        font-size: 1.2rem!important;
+    }
+
+    .box_user_guide p, .box_manager_guide p {
+        font-size: 0.6rem!important;
+    }
+
+    .box_guide_video{
+        height: 239px;
+    }
+    /*end_Tour_Guide*/
+
+
+    /*start_health*/
+    .swiper-slide .title {
+        font-size: 1.5rem;
+    }
+
+    .text p{
+        padding-top: 21px;
+        width: 100%;
+    }
+
+    .swiper-slide{
+        padding: 40px 0px;
+    }
+
+    .swiper-button-next::after, .swiper-container-rtl .swiper-button-prev::after , .swiper-button-prev::after, .swiper-container-rtl .swiper-button-next::after{
+        display: none;
+    }
+
+    .swiper-pagination{
+        display: block;
+    }
+
+    .swiper-pagination span{
+        border: 1px solid white;
+    }
+
+    .section_Tour_Guide h2{
+        font-size: 28px!important;
+    }
+
+    .section_Tour_Guide p{
+        font-size: 12px!important;
+    }
+    /*end_health*/
+
+
+    /*start_contact_us*/
+    .box_beginnig{
+        width: 100%;
+    }
+
+    .title-slider-clinic{
+        font-size: 19px!important;
+    }
+
+    .infor-slider-clinic{
+        font-size: 14px!important;
+    }
+
+    .infor_responsive{
+        padding: 1rem !important;
+        font-size: 0.7rem;
+    }
+
+    .title_contact_us{
+        margin-top: 4rem;
+        padding: 25px 30px 30px 44px;
+    }
+
+    .box_contact_us{
+        margin-left: 0;
+        width: 97%;
+        height: 351px;
+    }
+
+    .title_responsive_contact{
+        padding-left: 0!important;
+        padding-top: 0!important;
+    }
+
+    .box-Clinics{
+        height: 296px;
+    }
+
+    .btn-form{
+        position: inherit;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        right: 0;
+        
+    }
+    /*end_contact_us*/
+
+
+    /*start_Establishment and Marketing*/
+    .section-e-m{
+        background-image: unset!important;
+        padding: 19px;
+        height: auto!important;
+    }
+
+    .shape-responsive-block{
+        display: block!important;
+        background-position: unset;
+        height: 30vh!important;
+    }
+
+    .box_contact_us{
+        margin-bottom: 20px;
+    }
+
+    .box-membership{
+        margin-top: 34px;
+        width: 100%;
+        font-size: 0.7rem;
+        padding: 23px;
+    }
+
+    .box-digital-medical{
+        padding-top: 27px;
+    }
+
+    .text-title-establoshment{
+        font-size: 20px!important;
+    }
+    /*end_Establishment and Marketing*/
+
+    /*start-footer*/
+    .section-footer{
+        padding: 19px;
+        height: auto;
+    }
+
+    .section-footer img{
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+    }
+
+    .icon-footer{
+        display: flex;
+    }
+
+    .image-takht{
+        display: block!important;
+        width: 100%;
+    }
+
+    .border-slider{
+        display: none!important;
+    }
+
+    .border-slider2{
+        display: none!important;
+    }
+
+    .title-myclinict{
+        padding-left: 0!important;
+        font-size: 23px!important;
+    }
+
+    .infor-myclinic{
+        font-size: 0.9rem;
+    }
+
+    .p-m-remove-responsive{
+        padding-top: 0!important;
+        margin-top: 0!important;
+        padding-bottom: 0!important;
+    }
+
+    .pp-m-remove-responsive{
+        padding-top: 40px!important;
+    }
+
+    .section_myclinic {
+        height: auto!important;
+    }
+
+    .btn-myclinic{
+        margin-top: 0!important;
+        margin-bottom: 20px;
+    }
+
+    .text-footer-responsive{
+        width: 100%!important;
+    }
+    
+    .icon-logo-fotoer{
+        margin-top: 120px!important;
+    }
+
+    .title_clinics h4{
+        font-size: 40px!important;
+    }
+    /*end-footer*/
+}
+
+
+
+@media(min-width: 1400px) {
+    .d-none-takht{
+        width: 80%!important;
+        height: 80%!important;
+    }
+
+    .btn-form{
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        left: 60%;
+    }
+
+    .shape_line3{
+        top: 33%!important;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 90%;
+    }
+
+    .shape_header1{
+        width: 9%!important;
+        position: absolute;
+        right: 0;
+        top: 17%!important;
+        height: 430px!important;
+    }
+
+    .section_service{
+        top: 92%!important;
+    }
+
+    .d-none-takht{
+        margin-top: 50px!important;
+    }
+
+    .margin-text-clinics-responsive{
+        margin-top: 15px!important;
+    }
+
+    .section_myclinic{
+        height: 100vh!important;
+    }
+
+    .title-bg-header{
+        margin-right: 23px!important;
+    }
+}
+
+@media(min-width: 1630px) {
+    .shape_line3{
+        top: 20%!important;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 90%;
+    }
+
+    .section_service{
+        top: 80%!important;
+    }
+}
+
+@media(min-width: 1700px) {
+    .shape_line3{
+        top: 34%!important;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 76.5%;
+    }
+
+    .shape_header1{
+        width: 8%!important;
+        position: absolute;
+        right: 0;
+        top: 15%!important;
+        height: 400px!important;
+    }
+
+    .section_service{
+        top: 77.5%!important;
+    }
+
+    .title_service{
+        margin-left: 9%!important;
+    }
+
+    .d-none-takht{
+        margin-top: 50px!important;
+    }
+    
+    .section_myclinic{
+        height: 82vh!important;
+    }
+
+    .title-bg-header{
+        margin-right: 72px!important;
+    }
+}
+
+@media(min-width:1733px) {
+    .shape_line3{
+        top: 33%!important;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 62%;
+    }
+
+    .shape_header1{
+        width: 7%!important;
+        position: absolute;
+        right: 0;
+        top: 17%!important;
+        height: 412px!important;
+    }
+
+    .section_service{
+        top: 66%!important;
+    }
+
+    .title_service{
+        margin-left: 10%!important;
+    }
+
+    .d-none-takht{
+        margin-top: 50px!important;
+    }
+
+    .margin-text-clinics-responsive{
+        margin-top: 100px!important;
+    }
+
+    .section_myclinic{
+        height: 94vh!important;
+    }
+
+    .icon-myclinics{
+        margin-top: 95px!important;
+    }
+
+    .title-bg-header{
+        margin-right: 72px!important;
+    }
+}
+
+@media(min-width:1966px) {
+    .section_myclinic{
+        height: 85vh!important;
+    }
+
+    .icon-myclinics{
+        margin-top: 90px!important;
+    }
+
+    .section_service{
+        top: 60%!important;
+    }
+
+    .shape_line3{
+        top: 27%!important;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 62%;
+    }
+}
+
+@media(min-width:2000px) {
+    .shape_line3{
+        top: 16.5% !important;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 73%!important;
+    }
+
+    .section_service{
+        top: 59.5%!important;
+    }
+
+    .shape_header1{
+        width: 7%!important;
+        position: absolute;
+        right: 0;
+        top: 9%!important;
+        height: 442px!important;
+    }
+
+    .title_service{
+        margin-left: 11%!important;
+    }
+
+    .title-bg-header{
+        margin-right: 159px!important;
+    }
+
+}
