@@ -22,6 +22,10 @@
 
 </head>
 <body>
+
+    <div class="loader">
+        <img src="assest/images/giphy.gif" alt="">
+    </div>
 <!--start_header-->
 
     <!--start image and shapes-->
@@ -639,6 +643,7 @@
 <!--link_js-->
 <script src="assest/jquery/jquery-3.5.1.min.js"></script>
 <script src="assest/bootstrap/js/bootstrap.js"></script>
+<script src="assest/js/script.js"></script>
 <script src="assest/jquery/OwlCarousel/dist/owl.carousel.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -700,6 +705,12 @@
             }
         });
 
+        let loading = document.querySelector(".loading")
+        function funcLoading() {
+            loading.style.dispaly = "none"
+        }
+
+        funcLoading()
 </script>
 
 </body>

@@ -7,11 +7,42 @@ html{
     scroll-behavior: smooth;
 }
 
+.loading {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    z-index: 1000;
+}
+
 body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: Century Gothic!important;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
 
 /*start image and shapes*/
