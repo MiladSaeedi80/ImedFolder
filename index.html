@@ -595,7 +595,29 @@
 
 <script>
 
+    /*owl-carsoul*/
+    $('.owl-projects').owlCarousel({
+        loop: true,
+        dots:true,
+        margin: 7,
+        items: 3,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplaySpeed: 1200,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
 
+
+            786: {
+                items: 2
+            },
+            992: {}
+        }
+    });
+    
 </script>
 
 </body>
