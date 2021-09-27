@@ -1,7 +1,6 @@
 window.addEventListener("load" , ()=>{
     const loader = document.querySelector(".loader")
     loader.classList.add("hidden")
-    console.log(",ilad")
 })
 
 /*owl-carsoul*/
@@ -28,9 +27,9 @@ $('.owl-projects').owlCarousel({
     }
 });
 
-let loading = document.querySelector(".loading")
-function funcLoading() {
-    loading.style.dispaly = "none"
-}
-
-funcLoading()
+// let loading = document.querySelector(".loading")
+// // function funcLoading() {
+// //     loading.style.dispaly = "none"
+// // }
+//
+// funcLoading()
